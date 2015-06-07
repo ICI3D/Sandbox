@@ -11,3 +11,5 @@ cbind(40:100,(dhyper(40:100,500,500,100, log=F)))
 plot(seq(40,100), dhyper(40:100,500,500,100, log=F), xlab="No. who developed disease",
      lines(seq(40,100), dhyper(40:100,500,500,100, log=F)))
 abline(h=0.05,untf=F, col="blue", lty=1, lwd=2) ## line showing statistical significance
+
+###########continuation of the project########################
