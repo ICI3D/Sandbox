@@ -14,3 +14,6 @@ plot(seq(40,100), dhyper(40:100,500,500,100, log=F), xlab="No. who developed dis
 abline(h=0.05,untf=F, col="blue", lty=1, lwd=2) ## line showing statistical significance
 dev.off()
 ###########continuation of the project########################
+
+
+
