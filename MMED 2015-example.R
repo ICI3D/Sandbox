@@ -8,10 +8,11 @@ sum(dhyper(0:40,500,500,100, log=F)) ## the result is significant
 #probaility of getting >= 40 deaths
 cbind(40:100,(dhyper(40:100,500,500,100, log=F)))
 ##Plotting probaility of getting >= 40 deaths
-pdf(file.path('C:/Users/Joseph/OneDrive/Documents/Sandbox','RR-plot.pdf'), w = 8, h = 11)
+##Colour of graph changed to red
+pdf(file.path('C:/Users/HP/Desktop/MMED2015/Sandbox','RR-plot.pdf'), w = 8, h = 11)
 plot(seq(40,100), dhyper(40:100,500,500,100, log=F), xlab="No. who developed disease",
      lines(seq(40,100), dhyper(40:100,500,500,100, log=F)))
-abline(h=0.05,untf=F, col="blue", lty=1, lwd=2) ## line showing statistical significance
+abline(h=0.05,untf=F, col="red", lty=1, lwd=2) ## line showing statistical significance
 dev.off()
 ###########continuation of the project######################## Sandile comment
 
