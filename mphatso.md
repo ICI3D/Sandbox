@@ -7,7 +7,7 @@
 
 \f0\fs24 \cf0 Name: Mphatso\
 Country: Malawi\
-Institution: Malawi-Liverpool-Wellcome Programme\
+Institution: Malawi-Liverpool-Wellcome Clinical Research Programme\
 Research interest: Tuberculosis transmission modelling\
 }
 
